@@ -21,10 +21,10 @@ Puis "flasher" le firmware :
 cd /Desktop/motor/MotorBridgeCapeFirmware 
 -sudo make flash 
 Verifier que le flash a bien fonctionné:
--sudo i2cdetect -y -r 1
+- sudo i2cdetect -y -r 1
 On doit observer l'adresse 0x4b qui correspond à l'adresse i2c de communication entre la cape et la BBB
 
 pour compiler le précédent projet :
 
--cd Desktop/c/manip
--sudo gcc manip.c ../dht22/bbb_dht_read.c ../dht22/bbb_mmio.c ../dht22/common_dht_read.c -o manip -lrt -lm
+- cd Desktop/c/manip
+- sudo gcc manip.c ../dht22/bbb_dht_read.c ../dht22/bbb_mmio.c ../dht22/common_dht_read.c -o manip -lrt -lm
