@@ -4,8 +4,8 @@ Le but de ce projet est de réaliser une automatisation d'un bassin de culture d
 Pour se faire une solution a été implémentée sur une Beaglebone black tournant sur Debian 3.8.13
 
 Identifiant pour se connecter: 
-usr: debian
-mdp: spiruline
+- usr: debian
+- mdp: spiruline
 
 Il faut veiller à noter que les paquets soit bien à jours:
  - sudo apt-get install 
