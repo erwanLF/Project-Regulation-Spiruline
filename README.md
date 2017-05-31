@@ -14,8 +14,8 @@ Il faut veiller à noter que les paquets soit bien à jours:
 Pour utiliser la cape motor qui se trouve sur le site : https://www.seeedstudio.com/Motor-Bridge-Cape-p-2569.html
 Il faut veiller que la date de la beaglebone soit bien à jours:
 
--sudo date -s **:**:** 
--sudo date -s **/**/**
+- sudo date -s **:**:** 
+- sudo date -s **/**/**
 
 Puis "flasher" le firmware : 
 cd /Desktop/motor/MotorBridgeCapeFirmware 
